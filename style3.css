@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Baskerville&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 50px;
+}
+.container4{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2rem 60vh 20rem 15rem 10rem 15rem 12rem;
+  font-family: 'Libre Baskerville', serif; 
+  color: #023f3a;
+  overflow: hidden;
+}
+.container4 p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: .4rem;
+  color: gray;
+}
+.about{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.ab{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    padding: 1rem;
+    text-align:left;
+}
+.team{
+    position: relative;
+    top:1rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:2rem 5rem 5rem;
+    gap: 1rem;
+    padding: 0 4rem 0 4rem;
+}
+.heading{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    place-content: center;
+    flex-wrap: wrap;
+}
+.legend{
+    position: relative;
+    left: -5rem;
+    top: 3.8rem;
+    color: whitesmoke;
+    font-size: .5rem;
+}
+.legend p{
+    font-size: .3rem;
+    color: white;
+}
+.emp{
+    display: flex;
+    place-content: center;
+}

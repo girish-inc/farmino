@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Baskerville&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 50px;
+}
+.container3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2rem 60vh 20rem 12rem 10rem;
+  font-family: 'Libre Baskerville', serif; 
+  color: #023f3a;
+  overflow: hidden;
+}
+.container3 p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: .4rem;
+  color: gray;
+}
+.contact{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr); */
+    padding: 0rem 3rem 0 3rem;
+}
+.conbox{
+    display: flex;
+    place-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: stretch;
+    align-content: center;
+}
+.conbox h6{
+    font-size: .5rem;
+    color: black;
+}
+.c4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    margin: 0 0 0 .5rem;
+    padding: 0rem 0 0rem 6rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -5px 10px 10px 20px #cccccc;
+}
+.map{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    place-content: center;
+    position: relative;
+    top:1rem;
+}

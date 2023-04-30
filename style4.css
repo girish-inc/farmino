@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Baskerville&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 50px;
+}
+.container5{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2rem 50vh 90vh 10rem 10rem;
+  font-family: 'Libre Baskerville', serif; 
+  color: #023f3a;
+  overflow: hidden;
+}
+.container5 p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: .4rem;
+  color: gray;
+}
+.faq{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    flex-wrap: wrap;
+}
+.hov{
+    border: 1px solid gray;
+    width: 15rem;
+    height: .8rem;
+    overflow: hidden;
+    margin: .5rem;
+    padding: .5rem;
+    transition: 300ms;
+}
+
+.hov:hover{
+    height: fit-content;
+    transform: scale(1.1);
+    display: block;
+    box-shadow: hsl(0 0% 0% / 0.47) 0px 0px 0px 3px;
+}
